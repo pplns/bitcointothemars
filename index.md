@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/pplns/bitcointothemars/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 比特币点对点电子现金票据
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+> 原文由中本聪于2008年发布在加密邮件列表
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+我一直在研究一种新的电子现金系统，它是完全点对点的，且不需要被信任的第三方机构。
 
-```markdown
-Syntax highlighted code block
+描述该系统的论文可在以下网址获取：
 
-# Header 1
-## Header 2
-### Header 3
+http://www.bitcoin.org/bitcoin.pdf
 
-- Bulleted
-- List
+主要特性：
+1. 通过点对点网络防止双重支付；
+2. 不需要铸币厂或者其它被信任的机构；
+3. 参与者可以是匿名的；
+4. 新币由哈希现金风格的工作量证明机制产生；
+5. 用于产生新币的工作量证明机制也为该网络的运行提供动力来防止双重支付。
 
-1. Numbered
-2. List
+比特币：一种点对点的电子现金系统
 
-**Bold** and _Italic_ and `Code` text
+概要：
+一个纯粹的点对点版本的电子现金系统，将允许在线支付直接从一方发送到另一方，而无需通过金融机构来负担。
+数字签名提供了部分解决方案，但如果仍然需要被信任的第三方来防止双重支付，那么电子支付的主要优势就丧失了。
+我们提出一个方案，使用点对点网络去解决双重支付问题。
+此网络通过随机散列为所有交易加上一个时间戳，将它们写入一个不断延展的、基于随机散列的工作量证明链上，形成一个如非完全重做否则就不可能改变的记录。
+最长链不仅用来证明已被见证的事件及其顺序，还用来证明它来自于最大的 CPU 算力池。
+只要绝大多数 CPU 算力被良性节点控制，那么良性节点将会生成最长链，并且在速度上超过攻击者。
+这个网络本身需要最小化的结构。
+信息将以最大努力被传播，节点来去自由，但加入之时总是需要接受最长的工作证明链作为它们未参与期间所发生之一切的证明。
 
-[Link](url) and ![Image](src)
-```
+论文全文发布在以下网址：
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+http://www.bitcoin.org/bitcoin.pdf
 
-### Jekyll Themes
+中本聪
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pplns/bitcointothemars/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[原文阅读](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)
