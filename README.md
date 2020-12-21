@@ -1,6 +1,6 @@
-# bitcointothemars
-Bitcoin To The Mars ! 
+# ฿itcoinToTheMars
+฿itcoin To The Mars ! 
 
-author: 小e
+Author: 小e
 
 Email: bitcointothemars@163.com
