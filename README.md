@@ -1,5 +1,5 @@
-# ฿itcoinToTheMars
-฿itcoin To The Mars ! 
+# ₿itcoinToTheMars
+₿itcoin To The Mars ! 
 
 Author: 小e
 
